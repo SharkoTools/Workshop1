@@ -13,8 +13,12 @@ conda create -n workshop1 -c bioconda sra-tools
 conda activate workshop1
 ```
 >> Доп задание: установить другим способом
+
+https://github.com/ncbi/sra-tools/wiki/01.-Downloading-SRA-Toolkit
+
 4) Скачать данные через Fastq-dump
 ```
+fastq-dump --split-files SRR957824
 fasterq-dump -S SRR957824
 ```
 >Запасной вариант:
